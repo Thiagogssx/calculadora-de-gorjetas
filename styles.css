@@ -64,6 +64,11 @@ body {
     height: 50px;
     font-size: 17px;
     color: white;
+    cursor: pointer;
+}
+
+.formSubmit:hover {
+    opacity: 0.8;
 }
 
 #totalTip {
