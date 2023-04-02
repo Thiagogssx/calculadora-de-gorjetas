@@ -10,8 +10,8 @@ function calculateTip(event) {
     }
 
     if (numOfPeople == "" | numOfPeople <= 1) {
-         numOfPeople = 1
-         document.getElementById("each").style.display = "none"
+        numOfPeople = 1
+        document.getElementById("each").style.display = "none"
     } else {
         document.getElementById("each").style.display = "block"
     }

@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color:lightblue;
-    --secondary-color:Dimgrey;
-    --tertiary-color:Gainsboro; 
+    --primary-color: lightblue;
+    --secondary-color: Dimgrey;
+    --tertiary-color: Gainsboro;
 }
 
 body {
@@ -44,6 +44,8 @@ h1 {
 .formInput {
     width: 55px;
     padding: 5px 5px 8px 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     outline-color: var(--secondary-color);
 }
 
@@ -54,7 +56,7 @@ h1 {
 .formSelect {
     width: 180px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
